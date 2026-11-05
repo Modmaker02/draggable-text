@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "draggabletext",
+  "version": "${version}",
+  "name": "Draggable Text",
+  "description": "Customizable on-screen text you can drag around in a GUI. Press K to open the editor.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.draggabletext.DraggableTextClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
